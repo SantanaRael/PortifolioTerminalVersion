@@ -1,0 +1,66 @@
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.terminal {
+	background-color: #282c32;
+	width: 99.9vw;
+	height: 100vh;
+	position: relative;
+}
+
+#textarea {
+	width: 94.8vw;
+	height: 90%;
+	position: relative;
+	bottom: 0;
+	border: none;
+	background-color: #282c32;
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+	outline: none;
+	
+}
+
+.terminal .nav h2{
+	width: 90%;
+	text-align:center;
+	color: white;
+    position: relative;
+    top: -10px;
+}
+
+
+.terminal .nav {
+	width: 100vw;
+	height: 52px;
+	background-color: #4b4d4d;
+	display: inline-flex;
+}
+
+.balls {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin: 15px 0 30px 10px;
+}
+
+#textarea::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	background-color: #cccccc;
+}
+
+#textarea::-webkit-scrollbar-track {
+	background: #282c32;
+}
+
+#textarea::-webkit-scrollbar-thumb {
+	background: #282c32;
+	border-radius: 5px;
+}
